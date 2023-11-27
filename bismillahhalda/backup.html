@@ -1,0 +1,477 @@
+<style>
+    * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+body {
+    width: 100%;
+    font-weight: 1000;
+    height: 100vh;
+    background: #5b4528;
+}
+
+.movie {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.movie img .stars {
+    width: 21px;
+    height: 21px;
+}
+
+
+.movie p {
+    text-transform: uppercase;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 500px;
+    height: 10vh;
+
+}
+
+
+.logo h1 {
+    font-family: monospace;
+    color:#fff
+    
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 10px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links li a {
+    padding: 8px 10px;
+    background: #fff;
+    color: #be720d;
+    border: 2px solid #fa6400;
+    border-radius: 10px;
+}
+
+
+
+.movie img {
+    border-radius: 10px;
+    width:150px;
+    height: 150px;
+  
+}
+
+
+.movie button {
+    padding: 10px 15px;
+    background: #fff;
+    font-weight: 800;
+    color: #be720d;
+    border: 2px solid #fa6400;
+    border-radius: 10px;
+}
+.foods-content {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    gap: 20px 0;
+    color: #fff;
+}
+
+.food img {
+    border-radius: 50%;
+}
+
+.service {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 30px;
+}
+
+.contact {
+    color: #fc630b;
+    background: #fff;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.movie-content {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    color: #fff;
+    gap: 20px 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.movies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 20px;
+}
+
+.content-main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background-image: url('bg.jpg');
+    background-size: cover;    background-position: center; /
+    color: #fff;
+   
+}
+.content-main img {
+    background-image: url('bg.jpg');
+}
+
+
+.info {
+   
+    text-align: center;
+    color: #3c2f1e;
+}
+
+h5 {
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+}
+
+.contact button {
+    padding: 10px 15px;
+    background: #fffb02;
+    font-weight: 800;
+    color: #fc630b;
+    border: 2px solid #fa6400;
+    border-radius: 10px;
+}
+
+.image-service {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    padding: 10px;
+}
+
+.image-service img {
+    width: 300px;
+}
+
+.terms {
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+    margin-top: 10px;
+}
+
+.info p {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 40px 60px 0 60px;
+}
+
+.info button {
+    padding: 10px 15px;
+    background: #fc630b;
+    color: #fff;
+    margin-top: 12px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+h4 {
+    margin-top: 120px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.foods {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 20px;
+}
+
+.food {
+    height: 500px;
+    text-align: center;
+    width: 500px;
+}
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh E-Commerce</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+        <div class="halda_logo">
+            <h1>Dayuynyek</h1>
+        </div>
+        <ul class="halda_nav-links">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="sofa.html">Sofa</a></li>
+            <li><a href="lemari.html">lemari</a></li>
+            <li><a href="meja.html">Meja</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+            <li><a href="tentangkami.html">Tentang Kami</a></li>
+        </ul>
+    </header>
+    <div class="halda_content-main">
+        <div class="halda_info">
+            <b><p>W u j u d k a n  I n t e r i or<br></b>
+                <b>I m p i a n m u  S e k a r a n g ! !</p></b>
+            <button>Lihat Selengkapnya</button>
+        </div>
+    </div>
+    <div class="halda_movie-content">
+        <h1>Rekomendasi Kasur</h1>
+        <div class="halda_movies">
+            <div class="halda_movie">
+                <img src="kasur1.jpg" alt="Gambar Kasur">
+                <img class="halda_stars" src="stars.png" alt="Stars Image">
+                <p>Rp. 10jt</p>
+                <p>Kasur Bintang</p>
+                <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+            </div>
+            <div class="halda_movie">
+                <img src="kasur2.jpg" alt="Gambar Kasur">
+                <img class="halda_stars" src="stars.png" alt="Stars Image">
+                <p>Rp. 20jt</p>
+                <p>Kasur Matahari</p>
+                <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+            </div>
+            <div class="halda_movie">
+                <img src="kasur3.jpg" alt="Gambar Kasur">
+                <img class="halda_stars" src="stars.png" alt="Stars Image">
+                <p>Rp. 22jt</p>
+                <p>Kasur mercy</p>
+                <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+            </div>
+        <div class="halda_movie">
+            <img src="kasur4.jpg" alt="Gambar Kasur">
+            <img class="halda_stars" src="stars.png" alt="Stars Image">
+            <p>Rp. 19jt</p>
+            <p>Kasur Gelembung </p>
+            <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+        </div>
+        <div class="halda_movie">
+            <img src="kasur5.jpg" alt="Gambar Kasur">
+            <img class="halda_stars" src="stars.png" alt="Stars Image">
+            <p>Rp. 20jt</p>
+            <p>Kasur kartun</p>
+            <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+        </div>
+        <div class="halda_movie">
+            <img src="kasur6.jpg" alt="Gambar Kasur">
+            <img class="halda_stars" src="stars.png" alt="Stars Image">
+            <p>Rp. 150jt </p>
+            <p>Kasur Terbang</p>
+            <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+        </div>
+    
+    </div>
+        <div class="halda_movie">
+            <button>Lihat Lainnya</button>
+        </div>
+      
+    
+    <div class="halda_movie-content">
+        <h1>Rekomendasi Sofa</h1>
+        <div class="halda_movies">
+            <div class="halda_movie">
+                <img src="sofa1.jpg" alt="Gambar Sofa">
+                <img class="halda_stars" src="stars.png" alt="Stars Image">
+                <p>Rp. 50jt</p>
+                <p>Sofa Lingkaran</p>
+                <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+            </div>
+            <div class="halda_movie">
+                <img src="sofa2.jpg" alt="Gambar Sofa">
+                <img class="halda_stars" src="stars.png" alt="Stars Image">
+                <p>Rp. 45jt</p>
+                <p>Sofa Bulan Sabit</p>
+                <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+            </div>
+            <div class="halda_movie">
+                <img src="sofa3.jpg" alt="Gambar Sofa">
+                <img class="halda_stars" src="stars.png" alt="Stars Image">
+                <p>Rp.30jt</p>
+                <p>Sofa Dadar</p>
+                <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+            </div>
+        <div class="halda_movie">
+            <img src="sofa4.jpg" alt="Gambar Sofa">
+            <img class="halda_stars" src="stars.png" alt="Stars Image">
+            <p>Rp. 40jt</p>
+            <p>Sofa Datar</p>
+            <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+        </div>
+        <div class="halda_movie">
+            <img src="sofa5.jpg" alt="Gambar Sofa">
+            <img class="halda_stars" src="stars.png" alt="Stars Image">
+            <p>Rp. 45jt</p>
+            <p>Sofa Bumi</p>
+            <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+        </div>
+        <div class="halda_movie">
+            <img src="sofa6.jpg" alt="Gambar Sofa">
+            <img class="halda_stars" src="stars.png" alt="Stars Image">
+            <p>Rp. 52jt</p>
+            <p>Sofa Ombak</p>
+            <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+
+        </div>
+        </div>
+        <div class="halda_movie-content">
+            <h1>Rekomendasi Lemari</h1>
+            <div class="halda_movies">
+                <div class="halda_movie">
+                    <img src="lemari1.jpg" alt="Gambar Lemari">
+                    <img class="halda_stars" src="stars.png" alt="Stars Image">
+                    <p>Rp. 30jt</p>
+                    <p>Lemari leter U</p>
+                    <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+                </div>
+                <div class="halda_movie">
+                    <img src="lemari2.jpg" alt="Gambar Lemari">
+                    <img class="halda_stars" src="stars.png" alt="Stars Image">
+                    <p>Rp. 25jt</p>
+                    <p>Lemari Sepatu</p>
+                    <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+                </div>
+                <div class="halda_movie">
+                    <img src="lemari3.jpg" alt="Gambar Lemari">
+                    <img class="halda_stars" src="stars.png" alt="Stars Image">
+                    <p>Rp. 25jt</p>
+                    <p>Lemari Gelas Hiasan</p>
+                    <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+                </div>
+            <div class="halda_movie">
+                <img src="lemari4.jpg" alt="Gambar Lemari">
+                <img class="halda_stars" src="stars.png" alt="Stars Image">
+                <p>Rp. 92jt</p>
+                <p>Lemari Dapur</p>
+                <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+            </div>
+            <div class="halda_movie">
+                <img src="lemari5.jpg" alt="Gambar Lemari">
+                <img class="halda_stars" src="stars.png" alt="Stars Image">
+                <p>Rp. 70jt</p>
+                <p>Lemari TV</p>
+                <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+            </div>
+            <div class="halda_movie">
+                <img src="lemari6.jpg" alt="Gambar Lemari">
+                <img class="halda_stars" src="stars.png" alt="Stars Image">
+                <p>Rp. 102jt</p>
+                <p>Lemari Privasi</p>
+                <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+    
+            </div>
+            </div>
+            <div class="halda_movie-content">
+                <h1>Rekomendasi Meja</h1>
+                <div class="halda_movies">
+                    <div class="halda_movie">
+                        <img src="meja1.jpg" alt="Gambar Meja">
+                        <img class="halda_stars" src="stars.png" alt="Stars Image">
+                        <p>Rp. 6jt</p>
+                        <p>Meja Putar</p>
+                        <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+                    </div>
+                    <div class="halda_movie">
+                        <img src="meja2.jpg" alt="Gambar Meja">
+                        <img class="halda_stars" src="stars.png" alt="Stars Image">
+                        <p>Rp. 23jt</p>
+                        <p>Meja Makan</p>
+                        <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+                    </div>
+                    <div class="halda_movie">
+                        <img src="meja3.jpg" alt="Gambar Meja">
+                        <img class="halda_stars" src="stars.png" alt="Stars Image">
+                        <p>15jt</p>
+                        <p>Meja Ampar</p>
+                        <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+                    </div>
+                <div class="halda_movie">
+                    <img src="meja4.jpg" alt="Gambar Meja">
+                    <img class="halda_stars" src="stars.png" alt="Stars Image">
+                    <p>13jt</p>
+                    <p>Meja Kwaci</p>
+                    <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+                </div>
+                <div class="halda_movie">
+                    <img src="meja5.jpg" alt="Gambar Meja">
+                    <img class="halda_stars" src="stars.png" alt="Stars Image">
+                    <p>Rp. 103jt</p>
+                    <p>Meja Dapur</p>
+                    <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+                </div>
+                <div class="halda_movie">
+                    <img src="meja6.jpg" alt="Gambar Meja">
+                    <img class="halda_stars" src="stars.png" alt="Stars Image">
+                    <p>Rp. 11jt</p>
+                    <p>Meja Belajar</p>
+                    <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+        
+                </div>
+                </div>
+
+    <div class="halda_service">
+        <div class="halda_contact">
+            <h5>Should you require further assistance or have any questions about our services provided, our customer service team is ready to help. Please feel free to contact us.</h5>
+            <button>Send Message</button>
+        </div>
+        <div class="halda_image-service">
+            <img src="atendente.jpeg" alt="Customer Service Image">
+        </div>
+    </div>
+    <div class="halda_terms">
+        <h3>Terms of Use and Privacy</h3>
+    </div>
+</body>
+</html>

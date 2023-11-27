@@ -1,0 +1,591 @@
+* {
+    box-sizing: border-box;
+    font-family: 'system-ui', sans-serif;
+    text-decoration: none;
+    text-transform: initial;
+    padding: 0;
+    margin:0;
+}
+
+body {
+    width: 100%;
+    font-weight: 650;
+    height: auto;
+    background: #4e3d27;
+    
+}
+
+.halda_product {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0%;
+}
+
+.halda_product .halda_stars {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+
+.halda_product p {
+    text-transform: initial;
+    color:#fff;
+    font-size:small;
+    margin: 2px;
+}  
+.halda_product span {
+    font-size:small;
+}
+
+
+
+.halda_product img {
+    border-radius: 10px;
+    width:150px;
+    height:150px;
+    
+  
+}
+
+
+.halda_product button {
+    padding: 10px 15px;
+    background:#fff;
+    font-weight: 1000;
+    color: #3c2f1e;
+    border-radius: 10px;
+    cursor:pointer;
+
+}
+.halda_product-content {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    color: #fff;
+    gap: 2px 0;
+    
+}
+.halda_product-content h1 {
+    color:#fff;
+    background-color:#3c2f1e;
+    
+}
+.halda_products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 2px;
+}
+.halda_product span {
+    display:block;
+}
+.halda_product-content-bg {
+    background-color: #fff;
+    padding:0px;
+    background:#fff;
+    
+}
+.halda_product-content-bg .halda_kasur {
+    background-image:url('bg2.jpg');
+    
+    
+}
+.halda_product-content-bg p {
+    color:#5b4528;
+}
+.halda_product-content-bg h1{
+    background-color:#3c2f1e;
+    color:#fff;
+    
+}
+.halda_product-content-bg h2 {
+    color:#3c2f1e;
+}
+.halda_product-content-bg button {
+    background-color:  #5b4528;
+    color: #fff;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 500px;
+    height: 10vh;
+
+}
+
+
+.halda_logo h1 {
+    font-family: monospace;
+    color:#fff;
+    
+}
+
+.halda_nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 6px;
+}
+
+.halda_nav-links li {
+    list-style: none;
+}
+
+.halda_nav-links li a {
+    padding: 6px 8px;
+    background: #fff;
+    color: #3c2f1e;
+    font-weight: 1000;
+  
+    border-radius: 10px;
+}
+
+
+
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
+.halda_content-main {
+    width: 100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    background-image: url('bg.jpg');
+    background-size: cover;    background-position: center; 
+    color: #fff;
+   
+}
+.halda_content-main img {
+    background-image: url('bg.jpg');
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.halda_content-background {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    background-image: url('bglemari.jpg');
+    background-size: cover;    background-position: center; 
+    color: #fff;
+   
+}
+.halda_content-background h1 {
+    background-color:rgba(0, 0, 0, 0.7);  
+    margin-top: 2px;
+    margin-bottom: 2px;  
+}
+.halda_content-background-kasur{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    background-image: url('bgkasur.jpg');
+    background-size: cover;    background-position: center; 
+    color: #fff;
+   
+}
+.halda_content-background-kasur h1 {
+    background-color:rgba(0, 0, 0, 0.7);  
+    margin-top: 2px;
+    margin-bottom: 2px;  
+}
+.halda_content-background-sofa{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    background-image: url('bgsofa.jpg');
+    background-size: cover;    background-position: center; 
+    color: #fff;
+   
+}
+.halda_content-background-sofa h1 {
+    background-color:rgba(0, 0, 0, 0.7);  
+    margin-top: 2px;
+    margin-bottom: 2px;  
+}
+.halda_content-background-meja {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    background-image: url('bgmeja.jpg');
+    background-size: cover;    background-position: center; 
+    color: #fff;
+   
+}
+.halda_content-background-meja h1 {
+    background-color:rgba(0, 0, 0, 0.7);  
+    margin-top: 2px;
+    margin-bottom: 2px;  
+}
+.halda_content-background-tentangkami {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    background-image: url('bg.jpg');
+    background-size: cover;    
+    background-position: center; 
+    color: #fff;
+   
+}
+.halda_content-background-tentangkami h1 {
+    background-color:rgba(0, 0, 0, 0.7);  
+    margin-top: 2px;
+    margin-bottom: 2px;  
+}
+.halda_content-background-kontak {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    background-image: url('bg.jpg');
+    background-size: cover;   
+    background-position: center; 
+    color: #fff;
+   
+}
+.halda_content-background-kontak h1 {
+    background-color:rgba(0, 0, 0, 0.7);  
+    margin-top: 2px;
+    margin-bottom: 2px;  
+}
+.halda_content-background-kontak button {
+    padding: 10px 15px;
+    background: #fff;
+    font-weight: 800;
+    color: #3c2f1e;
+    border: 2px solid  #3c2f1e;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.halda_content-background-kontak p {
+     font-size: 40px;
+    font-weight: 700;
+    margin: 40px 60px 0 60px;
+    color:#fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.halda_info {
+   
+    text-align: center;
+    color: #3c2f1e;
+    
+}
+
+h5 {
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+}
+
+.halda_contact button {
+    padding: 10px 15px;
+    background: #fffb02;
+    font-weight: 800;
+    color: #fc630b;
+    border: 2px solid #fa6400;
+    border-radius: 10px;
+}
+
+
+.halda_terms {
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+    margin-top: 10px;
+}
+
+.halda_info p {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 40px 60px 0 60px;
+    color:#fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.halda_info-halaman {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 40px 60px 0 60px;
+    color:#fff;
+    text-align: center;
+
+}
+.halda_info button {
+    padding: 10px 15px;
+    background: #fff;
+    color:#5b4528;
+    margin-top: 12px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+h4 {
+    margin-top: 120px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.halda_keterangan-content {
+    color:#3c2f1e;
+    justify-content: center;
+    background :#fff;
+    
+}
+.halda_keterangan-content h1 {
+    background-color: #3c2f1e;
+    color:white;
+    font-weight: 600;
+}
+.halda_keterangan-content p {
+    color:#3c2f1e;
+    margin-left: 5px;
+    margin-right: 2px;
+    margin-bottom:3px;
+   
+}
+.halda_keterangan-content h3 {
+    color:#3c2f1e;
+    margin-left: 5px;
+    margin-right: 2px;
+    margin-bottom:3px;
+    
+   
+}
+.halda_metode-pembayaran {
+    
+    background: #fff;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    color:#3c2f1e;
+
+
+}
+.halda_metode-pembayaran h1 {
+    margin:0%;
+    background-color:#3c2f1e;
+    color:#fff;
+    font-weight: 600;
+    margin-bottom: 3px;
+
+}
+
+.halda_contact {
+    max-width: 100%;
+    margin: 5px;
+    background:white;
+}
+
+.halda_contact-halaman {
+    max-width: 100%;
+    margin: 2px;
+    background-color: #fff;
+
+}
+.halda_contact-halaman h1 {
+    color:#fff;
+    margin:2px;
+}
+.halda_content-halaman h2 {
+    margin:2px;
+    color:#3c2f1e;
+}
+.halda_contact-halaman img {
+    max-width: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.halda_contact h2 {
+    color: #3c2f1e;
+    margin:2px;
+}
+
+.halda_paragraf-dengan-span {
+    display: block;
+    text-align: left;
+    margin-bottom: 20px;
+    color:#3c2f1e;
+    font-size: small;
+}
+.halda_paragraf-dengan-span-halaman {
+    display: block;
+    text-align: left;
+    margin-bottom: 20px;
+    color:#3c2f1e;
+    font-size: medium;
+}
+
+.halda_contact img {
+    max-width: 20px; 
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.halda_footer {
+    width:100%;
+    height:40px;
+    background-color:#3c2f1e;
+    color:#fff;
+    font-size: small;
+    text-align: center;
+}
+.halda_footer h2 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color:#fff;
+
+}
+.halda_product-lihatlainnya button{
+    padding: 10px 15px;
+    background: #fff;
+    font-weight: 800;
+    color: #3c2f1e;
+    border-radius: 10px;
+    cursor:pointer;
+    align-items:center;
+    justify-content:center;
+    
+
+}
+.halda_formulir {
+    color:#3c2f1e;
+
+}
+.halda_formulir  #btnKirim {
+    padding: 3px 7px;
+    background: #fff;
+    font-weight: 800;
+    color: #3c2f1e;
+    border-radius: 10px;
+    cursor:pointer;
+    align-items:center;
+    justify-content:center;
+}
+.halda_formulir  #btnReset {
+    padding: 3px 7px;
+    background: #fff;
+    font-weight: 800;
+    color: #3c2f1e;
+    border-radius: 10px;
+    cursor:pointer;
+    align-items:center;
+    justify-content:center;
+}
+.halda_formulir input {
+    padding: 3px 7px;
+    background: #fff;
+    font-weight: 800;
+    color: #3c2f1e;
+    border-radius: 10px;
+    
+    align-items:center;
+    justify-content:center;
+}
+.halda_formulir textarea {
+    padding: 3px 7px;
+    background: #fff;
+    font-weight: 800;
+    color: #3c2f1e;
+    border-radius: 10px;
+    cursor:pointer;
+    align-items:center;
+    justify-content:center;
+}
+.halda_formulir-index   {
+    padding: 3px 7px;
+    background: #fff;
+    color: #3c2f1e;
+}
+
+.halda_formulir-index  #btnKirim {
+    padding: 3px 7px;
+    background: #fff;
+    font-weight: 800;
+    color: #3c2f1e;
+    border-radius: 10px;
+    cursor:pointer;
+    align-items:center;
+    justify-content:center;
+}
+.halda_formulir-index  #btnReset {
+    padding: 3px 7px;
+    background: #fff;
+    font-weight: 800;
+    color: #3c2f1e;
+    border-radius: 10px;
+    cursor:pointer;
+    align-items:center;
+    justify-content:center;
+}
+.halda_formulir-index  input {
+    padding: 3px 7px;
+    background: #fff;
+    font-weight: 800;
+    color: #3c2f1e;
+    border-radius: 10px;
+    
+    align-items:center;
+    justify-content:center;
+}
+.halda_formulir-index textarea {
+    padding: 3px 7px;
+    background: #fff;
+    font-weight: 800;
+    color: #3c2f1e;
+    border-radius: 10px;
+    cursor:pointer;
+    align-items:center;
+    justify-content:center;
+}
+
+
+
+  

@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh E-Commerce</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+</head>
+<body>
+
+    <header>
+        <div class="halda_logo">
+            <h1>Dayuynyek</h1>
+        </div>
+        <ul class="halda_nav-links">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="kasur.html">Kasur</a></li>
+            <li><a href="sofa.html">Sofa</a></li>
+            <li><a href="lemari.html">lemari</a></li>
+            <li><a href="meja.html">Meja</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+            <li><a href="tentangkami.html">Tentang Kami</a></li>
+        </ul>
+    </header>
+    <div class="halda_content-main">
+        <div class="halda_info">
+            <b><p>W u j u d k a n  I n t e r i or<br></b>
+                <b>I m p i a n m u  S e k a r a n g ! !</p></b>
+            
+            <button onclick="showPopup()">Lihat Promo Hari Ini</button>
+        </div>
+    </div>
+    <div class="halda_product-content">
+        <h1><center>Dayuynyek</h1>
+        <p>Furnitur & Aksesoris</p>
+        <p>Furnitur terbaik untuk rumah</p>
+        <p>Gratis Ongkir!*150.000+ furnitur multifungsi</p>
+        <p>Pilih Furnitur Terbaik untuk Meningkatkan Kesejahteraan Rumah Anda</p>
+        <p>Tata Ruang dengan Keindahan dan Kualitas: Jelajahi Rekomendasi Furnitur Multifungsi Kami</p>
+        <p>Beli Lebih, Hemat Lebih: Gratis Ongkir untuk Pembelian di Atas 150.000+.</p>
+        <p>Desain Yang Menginspirasi: Temukan Furnitur Multifungsi untuk Setiap Ruang di Rumah Anda.</p>
+        <p>Penyempurnakan Rumah Anda: Dapatkan Furnitur Berkualitas dengan Gratis Ongkir!</p>
+        <p>Pilih Furnitur Terbaik dengan Kelebihan Gratis Ongkir!</p>
+        <p>Dapatkan Gratis Ongkir untuk Pembelian 150.000+.</p>
+        <p>Pilih Furnitur Terbaik di Situs Kami.</p>
+        <p>Gratis Ongkir untuk Pembelian Lebih dari 150.000+.</p>
+        <h1>Rekomendasi Kasur</h1>
+
+        <div class="halda_products">
+            <div class="halda_product" onclick="showProductDetails('Kasur Bintang', 'Rp. 10.000.000', 'kasur yang elegan.', 'kasur1.jpg')">
+                
+                <img src="kasur1.jpg" alt="Gambar Kasur">
+                <img class="halda_stars" src="stars.png" alt="Stars Image">
+                <p>4.9 (4k ulasan)</p>
+                <p>Rp. 10jt</p>
+                <p>Kasur Bintang</p>
+                
+                <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+
+
+            </div>
+            <div class="halda_product" onclick="showProductDetails('Kasur Bintang', 'Rp. 10.000.000', 'kasur yang elegan.', 'kasur1.jpg')">
+                <img src="kasur2.jpg" alt="Gambar Kasur">
+                <img class="halda_stars" src="stars.png" alt="Stars Image">
+                <p>4.9 (5k ulasan)</p>
+                <p>Rp. 20jt</p>
+                <p>Kasur Matahari</p>
+                <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+            </div>
+                <div class="halda_product" onclick="showProductDetails('Kasur Bintang', 'Rp. 10.000.000', 'kasur yang elegan.', 'kasur1.jpg')">
+
+                <img src="kasur3.jpg" alt="Gambar Kasur">
+                <img class="halda_stars" src="stars.png" alt="Stars Image">
+                <p>4.9 (4k ulasan)</p>
+                <p>Rp. 22jt</p>
+                <p>Kasur Mercy</p>
+                <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+                
+                
+            </div>
+            <div class="halda_product" onclick="showProductDetails('Kasur Bintang', 'Rp. 10.000.000', 'kasur yang elegan.', 'kasur1.jpg')">
+            <img src="kasur4.jpg" alt="Gambar Kasur">
+            <img class="halda_stars" src="stars.png" alt="Stars Image">
+            <p>4.9 (4k ulasan)</p>
+            <p>Rp. 19jt</p>
+            <p>Kasur Gelembung </p>
+            <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+
+        </div>
+            <div class="halda_product" onclick="showProductDetails('Kasur Bintang', 'Rp. 10.000.000', 'kasur yang elegan.', 'kasur1.jpg')">
+
+            <img src="kasur5.jpg" alt="Gambar Kasur">
+            <img class="halda_stars" src="stars.png" alt="Stars Image">
+            <p>4.9 (4k ulasan)</p>
+             <p>Rp. 20jt</p>
+            <p>Kasur kartun</p>
+            <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+
+        </div>
+            <div class="owProductDetails('Kasur Bintang', 'Rp. 10.000.000', 'kasur yang elegan.', 'kasur1.jpg')">
+            <img src="kasur6.jpg" alt="Gambar Kasur">
+            <img class="halda_stars" src="stars.png" alt="Stars Image">
+            <p>4.9 (4k ulasan)</p>
+            <p>Rp. 150jt </p>
+            <p>Kasur Terbang</p>
+            <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+
+        </div>
+    </div>
+    <div class="halda_product-lihatlainnya">
+        <a href="kasur.html">
+            <button>Lihat Lainnya</button></a>
+        </div>
+    <div class="halda_product-content">
+        <h1>Rekomendasi Sofa</h1>
+        <div class="halda_products">
+                <div class="halda_product" onclick="showProductDetails('Kasur Bintang', 'Rp. 10.000.000', 'kasur yang elegan.', 'kasur1.jpg')">
+                <img src="sofa1.jpg" alt="Gambar Sofa">
+                <img class="halda_stars" src="stars.png" alt="Stars Image">
+                <p>4.9 (4k ulasan)</p>
+                <p>Rp. 50jt</p>
+                <p>Sofa Lingkaran</p>
+                <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+
+            </div>
+                <div class="halda_product" onclick="showProductDetails('Kasur Bintang', 'Rp. 10.000.000', 'kasur yang elegan.', 'kasur1.jpg')">
+                <img src="sofa2.jpg" alt="Gambar Sofa">
+                <img class="halda_stars" src="stars.png" alt="Stars Image">
+                <p>4.9 (4k ulasan)</p>
+                <p>Rp. 45jt</p>
+                <p>Sofa Bulan Sabit</p>
+                <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+
+            </div>
+                <div class="halda_product" onclick="showProductDetails('Kasur Bintang', 'Rp. 10.000.000', 'kasur yang elegan.', 'kasur1.jpg')">
+                <img src="sofa3.jpg" alt="Gambar Sofa">
+                <img class="halda_stars" src="stars.png" alt="Stars Image">
+                <p>4.9 (4k ulasan)</p>
+                <p>Rp.30jt</p>
+                <p>Sofa seperempat Lingkaran</p>
+                <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+
+            </div>
+            <div class="halda_product" onclick="showProductDetails('Kasur Bintang', 'Rp. 10.000.000', 'kasur yang elegan.', 'kasur1.jpg')">
+            <img src="sofa4.jpg" alt="Gambar Sofa">
+            <img class="halda_stars" src="stars.png" alt="Stars Image">
+            <p>4.9 (4k ulasan)</p>
+            <p>Rp. 40jt</p>
+            <p>Sofa Datar</p>
+            <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+
+        </div>
+            <div class="halda_product" onclick="showProductDetails('Kasur Bintang', 'Rp. 10.000.000', 'kasur yang elegan.', 'kasur1.jpg')">
+            <img src="sofa5.jpg" alt="Gambar Sofa">
+            <img class="halda_stars" src="stars.png" alt="Stars Image">
+            <p>4.9 (4k ulasan)</p>
+            <p>Rp. 45jt</p>
+            <p>Sofa Bumi</p>
+            <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+
+        </div>
+            <div class="halda_product" onclick="showProductDetails('Kasur Bintang', 'Rp. 10.000.000', 'kasur yang elegan.', 'kasur1.jpg')">
+            <img src="sofa6.jpg" alt="Gambar Sofa">
+            <img class="halda_stars" src="stars.png" alt="Stars Image">
+            <p>4.9 (4k ulasan)</p>
+            <p>Rp. 52jt</p>
+            <p>Sofa Ombak</p>
+            <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+
+
+        </div>
+        </div>
+        <div class="halda_product-lihatlainnya">
+            <a href="sofa.html">
+                <button>Lihat Lainnya</button></a>
+            </div>
+        <div class="halda_product-content">
+            <h1>Rekomendasi Lemari</h1>
+            <div class="halda_products">
+                    <div class="halda_product" onclick="showProductDetails('Kasur Bintang', 'Rp. 10.000.000', 'kasur yang elegan.', 'kasur1.jpg')">
+                    <img src="lemari1.jpg" alt="Gambar Lemari">
+                    <img class="halda_stars" src="stars.png" alt="Stars Image"></p>
+                    <p>4.9 (4k ulasan)</p>
+                    <p>Rp. 30jt</p>
+                    <p>Lemari leter U</p>
+                    <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+                </div>
+                    <div class="halda_product" onclick="showProductDetails('Kasur Bintang', 'Rp. 10.000.000', 'kasur yang elegan.', 'kasur1.jpg')">
+                    <img src="lemari2.jpg" alt="Gambar Lemari">
+                    <img class="halda_stars" src="stars.png" alt="Stars Image">
+                    <p>4.9 (4k ulasan)</p>
+                    <p>Rp. 25jt</p>
+                    <p>Lemari Sepatu</p>
+                <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+                </div>
+                <div class="halda_product" onclick="showProductDetails('Kasur Bintang', 'Rp. 10.000.000', 'kasur yang elegan.', 'kasur1.jpg')">
+                    <img src="lemari3.jpg" alt="Gambar Lemari">
+                    <img class="halda_stars" src="stars.png" alt="Stars Image">
+                    <p>4.9 (4k ulasan)</p>
+                    <p>Rp. 25jt</p>
+                    <p>Lemari Gelas Hiasan</p>
+                <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+                </div>
+            <div class="halda_product" onclick="showProductDetails('Kasur Bintang', 'Rp. 10.000.000', 'kasur yang elegan.', 'kasur1.jpg')">
+                <img src="lemari4.jpg" alt="Gambar Lemari">
+                <img class="halda_stars" src="stars.png" alt="Stars Image">
+                <p>4.9 (4k ulasan)</p>
+                <p>Rp. 92jt</p>
+                <p>Lemari Dapur</p>
+                
+            <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+
+            </div>
+            <div class="halda_product" onclick="showProductDetails('Kasur Bintang', 'Rp. 10.000.000', 'kasur yang elegan.', 'kasur1.jpg')">
+                <img src="lemari5.jpg" alt="Gambar Lemari">
+                <img class="halda_stars" src="stars.png" alt="Stars Image">
+                <p>4.9 (4k ulasan)</p>
+                <p>Rp. 70jt</p>
+                <p>Lemari TV</p>
+                
+            <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+
+            </div>
+            <div class="halda_product" onclick="showProductDetails('Kasur Bintang', 'Rp. 10.000.000', 'kasur yang elegan.', 'kasur1.jpg')">
+                <img src="lemari6.jpg" alt="Gambar Lemari">
+                <img class="halda_stars" src="stars.png" alt="Stars Image">
+                <p>4.9 (4k ulasan)</p>
+                <p>Rp. 102jt</p>
+                <p>Lemari Privasi</p>
+                
+            <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+
+            </div>
+            </div>
+            <div class="halda_product-lihatlainnya">
+                <a href="lemari.html">
+                    <button>Lihat Lainnya</button></a>
+            </div>
+            <div class="halda_product-content">
+                <h1>Rekomendasi Meja</h1>
+                <div class="halda_products">
+                        <div class="halda_product" onclick="showProductDetails('Kasur Bintang', 'Rp. 10.000.000', 'kasur yang elegan.', 'kasur1.jpg')">
+                        <img src="meja1.jpg" alt="Gambar Meja">
+                        <img class="halda_stars" src="stars.png" alt="Stars Image">
+                        <p>4.9 (4k ulasan)</p>
+                        <p>Rp. 6jt</p>
+                        <p>Meja Putar</p>
+                       
+            <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+
+                    </div>
+                    <div class="halda_product" onclick="showProductDetails('Kasur Bintang', 'Rp. 10.000.000', 'kasur yang elegan.', 'kasur1.jpg')">
+                        <img src="meja2.jpg" alt="Gambar Meja">
+                        <img class="halda_stars" src="stars.png" alt="Stars Image">
+                        <p>4.9 (4k ulasan)</p>
+                        <p>Rp. 23jt</p>
+                        <p>Meja Makan</p>
+                       
+            <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+
+                    </div>
+                                <div class="halda_product" onclick="showProductDetails('Kasur Bintang', 'Rp. 10.000.000', 'kasur yang elegan.', 'kasur1.jpg')">
+
+                        <img src="meja3.jpg" alt="Gambar Meja">
+                        <img class="halda_stars" src="stars.png" alt="Stars Image">
+                        <p>4.9 (4k ulasan)</p>
+                        <p>15jt</p>
+                        <p>Meja Ampar</p>
+                       
+            <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+
+                    </div>
+                <div class="halda_product" onclick="showProductDetails('Kasur Bintang', 'Rp. 10.000.000', 'kasur yang elegan.', 'kasur1.jpg')">
+                    <img src="meja4.jpg" alt="Gambar Meja">
+                    <img class="halda_stars" src="stars.png" alt="Stars Image">
+                    <p>4.9 (4k ulasan)</p>
+                    <p>13jt</p>
+                    <p>Meja Kwaci</p>
+                <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+
+                </div>
+                <div class="halda_product" onclick="showProductDetails('Kasur Bintang', 'Rp. 10.000.000', 'kasur yang elegan.', 'kasur1.jpg')">
+                    <img src="meja5.jpg" alt="Gambar Meja">
+                    <img class="halda_stars" src="stars.png" alt="Stars Image">
+                    <p>4.9 (4k ulasan)</p>
+                    <p>Rp. 103jt</p>
+                    <p>Meja Dapur</p>
+                <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+
+                </div>
+                
+                <div class="halda_product" onclick="showProductDetails('Kasur Bintang', 'Rp. 10.000.000', 'kasur yang elegan.', 'kasur1.jpg')">
+                    <img src="meja6.jpg" alt="Gambar Meja">
+                    <img class="halda_stars" src="stars.png" alt="Stars Image">
+                    <p>4.9 (4k ulasan)</p>
+                    <p>Rp. 11jt</p>
+                    <p>Meja Belajar</p>
+                <button onclick="buyProduct('Kasur Bintang')">Lihat Detail</button>
+
+        
+                </div>
+                </div>
+                <div class="halda_product-lihatlainnya">
+                    <a href="meja.html">
+                        <button>Lihat Lainnya</button></a>
+                    
+                </div>
+                
+            <div class="halda_formulir-index">
+                <form action="">
+                    <form action="" id="pesanForm">
+                        <h2>Masukan Pesanan Anda</h2>
+                        <table width="400px" cellpadding="5" border="0">
+                            <tr>
+                                <td>Nama Anda</td>
+                                <td>Email</td>
+                                <td>Alamat</td>
+                                <td>Nomor Handphone</td>
+                                <td>Jumlah Barang</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                
+                                <td><input type="text" name="name" size="21" /></td>
+                                <td><input type="email" name="email" size="21" /></td>
+                                <td><input type="text" name="alamat" size="21" /></td>
+                                <td><input type="number" name="noHP" size="21" /></td>
+                                <td><input type="text" name="jumlahBarang" size="21" /></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Nama Barang
+                                    <textarea name="namaBarang" cols="50" rows="4"></textarea>
+
+                                </td>
+                                <td colspan="2">Silahkan Tinggalkan Pesan
+                                    <textarea name="pesan" cols="50" rows="4"></textarea>
+                                </td>
+                                
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="button" value="Kirim Pesan" id="btnKirim" />
+                                    <input type="reset" value="Reset" id="btnReset"/>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+        </div>
+                
+
+        <div class="halda_metode-pembayaran">
+            <h1><center>Dayuynyek</center></h1>
+            <center><p>Temukan inspirasi rumah idaman dan dekorasi dengan harga terjangkau</p></center>
+        <div class="halda_contact">
+                <h2>Hubungi Kami</h2>
+        
+                <div class="halda_paragraf-dengan-span">
+                    <a href="https://maps.app.goo.gl/2yjtkvUUoiSmNDQ89">
+                    <span><img src="alamat.png" alt="logo alamat"></span></a>
+                    <span>Jl. lurus No. 123, Kota Tasikmalaya</span>
+
+                </div>
+        
+                <div class="halda_paragraf-dengan-span">
+                    <a href="https://wa.me/qr/762XMSTAFIGWG1">
+                    <span><img src="notelp.png" alt="logo telepon"></span></a>
+                    <span>(123) 456-7890</span>
+                </div>
+        
+                <div class="halda_paragraf-dengan-span">
+                    <a href="mailto:haldaslsbl@gmail.com"></a>
+                    <span><img src="email.png" alt="logo email"></span></a>
+                    <span>haldaslsbl@gmail.com</span>
+
+                </div>
+        
+                <div class="halda_paragraf-dengan-span">
+                    <a href="https://instagram.com/haldssbila?igshid=NGVhN2U2NjQ0Yg==">
+                        <span><img src="instagram.png" alt="Instagram"></span></a>
+                        <span>haldasalsabila</span>
+
+                    </a>
+                </div>
+                      
+        </div>
+
+
+<div class="halda_metode-pembayaran">
+
+    <h2>Metode Pembayaran</h2>
+    <img src="american.jpg" alt="logo american">
+    <img src="bca.jpg" alt="logo bca"> 
+    <img src="bcaklikpay.jpg" alt="logo bcaklikpay">
+    <img src="bni.jpg" alt="logo bni">
+    <img src="bri.jpg" alt="logo bri">
+    <img src="bukopin.jpg" alt="logo bukopin">
+    <img src="cimb-niaga.jpg" alt="logo cimb-niaga">
+    <img src="digibank-dbs.jpg" alt="logo digibank-dbs">
+    <img src="gopay.jpg" alt="logo gopay">
+    <img src="hsbc.jpg " alt="logo hsbc">
+    <img src="jcb.jpg " alt= "logo jcb">
+    <img src="kredivo.jpg" alt="logo kredivo">
+    <img src="mandiri.jpg" alt="logo mandiri">
+    <img src="mastercard.jpg" alt="logo mastercard">
+    <img src="maybank.jpg" alt="logo maybank">
+    <img src="mnc.jpg" alt="logo mnc">
+    <img src="ocbc.jpg" alt="logo ocbc">
+    <img src="ovo.jpg" alt="logo ovo">
+    <img src="panin.jpg" alt="logo panin">
+    <img src="permata.jpg" alt="logo permata">
+    <img src="visa.jpg" alt="logo visa">
+    <img src="standard.jpg" alt="logo standard">
+</div>
+<div class="halda_metode-pembayaran">
+    <h2>Kerjasama Media</h2>
+    <img src="bisniscom.jpg" alt="bisniscom">
+    <img src="casa.jpg" alt="casa">
+    <img src="cnbc.jpg" alt="cnbc">
+    <img src="fimela.jpg" alt="fimela">
+    <img src="suaracom.jpg" alt="suaracom">
+    <img src="techinasia.jpg" alt="techinasia">
+    <img src="forbes.jpg" alt="forbes">
+    <img src="idea.jpg" alt="idea">
+    <img src="kompascom.jpg" alt="kompas">
+    <img src="kumparan.jpg" alt="kumparan">
+    <img src="liputan6.jpg" alt="liputan6">
+    <img src="jpnncom.jpg" alt="jpnncom">
+</div>
+<div class="halda_footer">
+    
+    <h2>Copyright 2023 &copy PT Dayuynyek</h2>
+</div>
+<script>
+if (typeof Swal === 'undefined') {
+    console.error('SweetAlert is not defined. Make sure the script is loaded.');
+} else {
+    const btnKirim = document.getElementById('btnKirim');
+    btnKirim.addEventListener('click', function () {
+        Swal.fire({
+            title: 'Terima Kasih',
+            text:'Pesanan Anda Segera Dikirim',
+            icon: 'success',
+        });
+    });
+}
+</script>
+<script>
+    function showPopup() {
+        Swal.fire({
+            title: 'Promo Hari Ini!',
+            text: 'Diskon 70% untuk pembelian di atas Rp. 1.000.000',
+            icon: 'info',
+            confirmButtonText: 'OK'
+        });
+    }
+</script>
+<script>
+    function showProductDetails(name, price, description, image) {
+            Swal.fire({
+                title: name,
+                html: `<img src="${image}" alt="${name}" style="max-width: 100%;">` +
+                      `<p>${description}</p>` +
+                      `<p>Harga: ${price}</p>`,
+                confirmButtonText: 'OK'
+            });
+        }
+</script>
+<script>
+        function buyProduct(productName) {
+            Swal.fire({
+                title: 'Pembelian Sukses!',
+                text: `Terima kasih atas pembelian ${productName}.`,
+                icon: 'success',
+                confirmButtonText: 'OK'
+            });
+        }
+</script>
+
+</body>
+</html>
